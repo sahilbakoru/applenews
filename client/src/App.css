@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(247, 247, 247);
+  height: 100vh;
+  color: rgb(71, 71, 71);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}
+
+a,
+/* a:hover, */
+a:visited,
+a:active {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* background: #e1e1e1; */
+  padding: 4%;
+  border-radius: 6px;
+}
+/* NAVBAR */
+
+.navbar {
+  border-bottom: 0.3px solid rgba(0, 0, 0, 0.808);
+}
+
+.logo {
+  font-size: 4.3rem;
+  padding: .5rem;
+  margin-bottom: 1.3rem;
+}
+
+.date {
+  color: #1c1c1c;
+}
+
+.navbar-brand {
+  color: #ad2222 !important;
+
+}
+
+.js {
+  font-weight: 200;
+}
+
+.date,
+.navbar-brand {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+/* SEARCHBAR */
+
+.search {
+  margin: auto;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+
+.label {
+  color: rgb(49, 49, 49);
+  font-size: 1.5rem;
+}
+
+/* NEWS */
+.top-lead {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #ca1f1f;
+}
+
+.top-level {
+  margin-top: 3rem;
+}
+
+.newshead {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.card {
+  color: rgb(0, 0, 0);
+  background: #eeeeee;
+  margin: 2rem 0;
+  border-radius: 18px;
+}
+
+.card-img {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 1.3rem;
+}
+
+.article-btn {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.source {
+  font-size: 1.1rem;
+}
+
+.api {
+  color: #ca1f1f !important;
+  font-weight: 600;
+}
+
+/* FOOTER  */
+
+.footer {
+  margin: 5rem 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.twitter {
+  color: #00aced !important;
+  font-weight: 600;
+}
+
+/* NOT FOUND  */
+.nflead {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.nfp {
+  font-size: 2rem;
+}
