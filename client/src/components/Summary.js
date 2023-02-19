@@ -15,7 +15,7 @@ console.log(data)
         <img
           src={!data.img ? news : data.img}
           className="card-img-top card-img"
-          alt="..."
+          alt={data.title}
         />
         <div className="card-body">
           <h1 >{data.title}</h1>

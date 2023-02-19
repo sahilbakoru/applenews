@@ -71,12 +71,14 @@ const Articles = () => {
             height: 1
         }}
     />
-    <EntertainmentArts/>
-    <HealthArts/>
-    <ScienceArts/>
-    <SportsArts/>
-    <TechArts/>
-    <BusinessArts/>
+    {/* {news? <EntertainmentArts/>:null}
+    {news?  <HealthArts/>:null}
+    {news?    <ScienceArts/>:null}
+    {news?  <SportsArts/>:null}
+    {news?<TechArts/>:null}
+    {news? <BusinessArts/>:null} */}
+    
+
         </div>
     );
 };

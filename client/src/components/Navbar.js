@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect , useState} from "react";
 import { Link } from "react-router-dom";
 import moment from "moment";
 import { Helmet } from "react-helmet";
 
 const Navbar = () => {
+const [showLang, setShowLang] = useState(false)
+
+
    useEffect(() => {
 
     }, []);
@@ -49,7 +52,6 @@ const Navbar = () => {
       >
         Click To Refresh
       </button>
-      <div id="google_translate_element"></div>
 
     </div>
   );
