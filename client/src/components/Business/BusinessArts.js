@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import Card from '../Card';
 import Header from '../Header';
+import { Helmet } from 'react-helmet';
 
 const { parse } = require("rss-to-json");
 
@@ -18,8 +19,14 @@ const BusinessArts = () => {
 
     return (
         <div>
+                <Helmet>
+                <title>
+           Read Latest Business News , Headlines, Top News today, Breaking News Online | Happening24
+                </title>
+            </Helmet>
             <div className="row">
                 <Header title="Business" />
+                
             </div>
             {news?
             <div className="card-columns">
