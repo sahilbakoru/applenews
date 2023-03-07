@@ -34,7 +34,7 @@ const [showLang, setShowLang] = useState(false)
           Happening24.com<span className="js"></span>
           <p className="date">{date}</p>
         </Link>
-        <div id="google_translate_element"></div>
+        {/* <div id="google_translate_element"></div> */}
       </nav>
       <button
         onClick={() => {
